@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
   <meta charset="UTF-8" />
   <title>Site Blocker</title>
@@ -13,34 +13,34 @@
     </header>
 
     <nav class="tabs" role="tablist">
-      <button class="tab-btn active" data-tab="sites" role="tab" aria-selected="true">Sites</button>
-      <button class="tab-btn" data-tab="keywords" role="tab" aria-selected="false">Keywords</button>
-      <button class="tab-btn" data-tab="settings" role="tab" aria-selected="false">Settings</button>
+      <button class="tab-btn active" data-tab="sites" role="tab" aria-selected="true">Weby</button>
+      <button class="tab-btn" data-tab="keywords" role="tab" aria-selected="false">Klíčová slova</button>
+      <button class="tab-btn" data-tab="settings" role="tab" aria-selected="false">Nastavení</button>
     </nav>
 
     <section id="tab-sites" class="tab-panel active">
       <form id="site-form" class="add-form">
-        <input type="text" id="site-input" placeholder="example.com" autocomplete="off" />
-        <button type="submit" class="add-btn">Add</button>
+        <input type="text" id="site-input" placeholder="např. example.com" autocomplete="off" />
+        <button type="submit" class="add-btn">Přidat</button>
       </form>
       <ul id="site-list" class="entry-list"></ul>
-      <p id="site-empty" class="empty-state">No blocked sites yet.</p>
+      <p id="site-empty" class="empty-state">Zatím nejsou přidané žádné blokované weby.</p>
     </section>
 
     <section id="tab-keywords" class="tab-panel">
       <form id="keyword-form" class="add-form">
-        <input type="text" id="keyword-input" placeholder="e.g. porn, game, video" autocomplete="off" />
-        <button type="submit" class="add-btn">Add</button>
+        <input type="text" id="keyword-input" placeholder="např. porn, game, video" autocomplete="off" />
+        <button type="submit" class="add-btn">Přidat</button>
       </form>
       <ul id="keyword-list" class="entry-list"></ul>
-      <p id="keyword-empty" class="empty-state">No blocked keywords yet.</p>
+      <p id="keyword-empty" class="empty-state">Zatím nejsou přidaná žádná blokovaná klíčová slova.</p>
     </section>
 
     <section id="tab-settings" class="tab-panel">
       <div class="setting-row">
         <div>
-          <div class="setting-title">Dark theme</div>
-          <div class="setting-desc">Switch between light and dark appearance.</div>
+          <div class="setting-title">Tmavý motiv</div>
+          <div class="setting-desc">Přepnutí mezi světlým a tmavým vzhledem.</div>
         </div>
         <label class="switch">
           <input type="checkbox" id="theme-toggle" />
